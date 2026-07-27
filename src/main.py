@@ -8,20 +8,18 @@ while True:
 
     print("\n--- SISTEMA BANCARIO ---")
     print("1. Registrar cliente")
-    print("2. Crear cuenta")
-    print("3. Consultar saldo")
-    print("4. Salir")
+    print("2. Consultar saldo")
+    print("3. Salir")
 
     opcion = input("Seleccione una opción: ")
 
     if opcion == "1":
         registrar_cliente()
 
-
-    elif opcion == "3":
+    elif opcion == "2":
         consultar_saldo()
 
-    elif opcion == "4":
+    elif opcion == "3":
         print("Saliendo...")
         break
 
